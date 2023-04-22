@@ -129,7 +129,8 @@ a {
     text-decoration: underline;
   }
 
-  .social-media-list &:hover {
+  .social-media-list &:hover,
+  .contact-list &:hover {
     text-decoration: none;
 
     .username {
