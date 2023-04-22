@@ -5,6 +5,7 @@
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
+        <h3>Entre em contato</h3>
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -20,7 +21,19 @@
           {%- endif -%}
           {%- if site.telephone -%}
             <li>
-              <a class="u-email" href="tel:{{ site.telephone }}">{{ site.telephone }}</a>
+              <a class="u-telephone" href="tel:{{ site.telephone }}">{{ site.telephone }}</a>
+              {%- if site.whatsappMessage -%}
+                <span class="separator">/</span>
+                <a href="https://api.whatsapp.com/send?phone=+55{{ site.telephone | url_encode }}&text={{ site.whatsappMessage | url_encode }}" target="_blank">
+                  <svg
+                    class="svg-icon"
+                    style="width:18px;height:auto;"
+                    viewBox="0 0 448 512">
+                    <use xlink:href="{{ '/assets/minima-social-icons.svg#whatsapp' | relative_url }}"></use>
+                  </svg>
+                  <span>Whatsapp</span>
+                </a>
+              {%- endif -%}
             </li>
           {%- endif -%}
         </ul>
