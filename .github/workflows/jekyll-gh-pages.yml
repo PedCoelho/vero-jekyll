@@ -14,6 +14,9 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  
+env:
+  RUBY_VERSION: 2.7
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -26,6 +29,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
