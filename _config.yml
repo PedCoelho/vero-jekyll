@@ -26,12 +26,13 @@ whatsappMessage: Oi, encontrei suas informações de whatsapp no seu site.
 description: >- # this means to ignore newlines until "baseurl:"
   Psicóloga Clínica – CRP 05/62394
   Veronica T Gurgel, Doutora em Psicologia. Possui experiência em consultório particular com foco no público adulto. Realiza atendimentos individuais, de forma online.
+# baseurl: "/vero-jekyll" # the subpath of your site, e.g. /blog
 baseurl: "/vero-jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "localhost:5500" # the base hostname & protocol for your site, e.g. http://example.com
 lang: pt-BR
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
