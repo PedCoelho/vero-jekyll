@@ -32,7 +32,7 @@ baseurl: "/vero-jekyll" # the subpath of your site, e.g. /blog
 lang: pt-BR
 
 # Build settings
-# theme: minima
+theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
