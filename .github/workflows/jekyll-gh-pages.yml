@@ -37,8 +37,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - uses: helaili/jekyll-action@2.0.5  
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        with:                                # Some relative inputs of your action
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   # Deployment job
   deploy:
