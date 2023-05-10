@@ -2,3 +2,56 @@
   margin-left: $spacing-unit / 3;
   margin-right: $spacing-unit / 3;
 }
+
+.mb-1 {
+  margin-bottom: $spacing-unit / 3;
+}
+.mb-2 {
+  margin-bottom: $spacing-unit / 2;
+}
+.mb-3 {
+  margin-bottom: $spacing-unit;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.d-flex {
+  display: flex;
+  @include media-query($on-palm) {
+    flex-wrap: wrap;
+  }
+}
+
+.flex-col {
+  flex-flow: column;
+}
+
+.column {
+  width: 100%;
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
+}
+
+a.whatsapp-btn {
+  background: #25d366
+    url("https://firebasestorage.googleapis.com/v0/b/gathletics-bot-db.appspot.com/o/Digital_Glyph_White.png?alt=media")
+    no-repeat 16px;
+  background-size: 32px 32px;
+  width: fit-content;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  display: block;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  padding: $spacing-unit/3 $spacing-unit/2 $spacing-unit/3 56px;
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+  text-decoration: none;
+}
