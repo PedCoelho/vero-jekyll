@@ -6,3 +6,5 @@
   link: "#abordagem"
 - name: Contato
   link: "#contato"
+- name: Blog
+  link: "/blog"
