@@ -1,0 +1,15 @@
+<div class="mb-3" id="{{include.anchor}}">
+  <div class="center">
+    <img
+      alt="{{include.title}}"
+      class="home-section-img"
+      src="{{include.icon}}" />
+  </div>
+  <a href="" style="color:#607f63">
+    <h2 class="center">{{ include.title }}</h2>
+  </a>
+  {%- for content in include.content -%}
+    <p>{{ content.paragraph }}</p>
+  {%- endfor -%}
+  <hr class="block-separator" />
+</div>

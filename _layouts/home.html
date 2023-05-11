@@ -3,22 +3,33 @@ layout: default
 ---
 
 <div class="home">
-  <div class="home-layout d-flex">
-    <div class="column flex-col">
-      <img
-        class="mb-2"
-        src="https://veronicagurgel.files.wordpress.com/2023/04/img_3615-e1680380574433.jpg?w=325"
-      />
+  <div class="home-layout d-grid mb-3">
+    <div class="column">
+      <div class="center-mobile">
+        <img class="mb-2 round-img" src="https://veronicagurgel.files.wordpress.com/2023/04/img_3615-e1680380574433.jpg?w=325" />
+      </div>
       <h1>Quem sou eu?</h1>
-      <p>{{site.author}}</p>
+      <p>{{ site.author }}</p>
       <p>
-        {{site.subTitle}}
-        <br />
-        {{site.description}}
+        {{ site.subTitle }}
+      </p>
+      <p>
+        {{ site.description }}
       </p>
     </div>
-    <div class="column flex-col">
-      {{ content }} {%- include whatsapp-button.html -%}
-    </div>
+    <div class="column justify">{{ content }} {%- include whatsapp-button.html
+ label = "Conversar no Whatsapp" -%}</div>
+  </div>
+  <div class="links-section justify">
+    {%- for item in site.data.homeSections -%}
+      {%- include homeAd.liquid
+        icon=item.icon
+        title=item.title
+        content=item.content
+        anchor=item.anchor -%}
+    {%- endfor -%}
+  </div>
+  <div class="center">
+    {%- include whatsapp-button.html label = "Conversar no Whatsapp" -%}
   </div>
 </div>
