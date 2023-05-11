@@ -169,6 +169,33 @@
 }
 
 /**
+ * Home
+ */
+.round-img {
+  border-radius: 50%;
+}
+
+.links-section {
+  @media screen and (min-width: 1000px) {
+    margin: auto;
+    max-width: ($content-width)/1.8;
+  }
+  a:visited {
+    color: inherit;
+  }
+  img {
+    max-width: 100px;
+  }
+}
+
+.block-separator {
+  border: 1px solid;
+  border-left: none;
+  border-right: none;
+  max-width: $separator-width;
+  margin: $spacing-unit auto $spacing-unit * 2 auto;
+}
+/**
  * Page content
  */
 .page-content {

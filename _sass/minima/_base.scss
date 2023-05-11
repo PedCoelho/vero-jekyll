@@ -38,6 +38,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  white-space: normal;
 }
 
 /**
@@ -60,6 +61,21 @@ figure,
   margin-bottom: $spacing-unit / 2;
 }
 
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl {
+  line-height: 1.7;
+  @include media-query($on-palm) {
+    text-align: justify;
+    text-justify: distribute;
+    word-break: break-word;
+    font-size: 1em;
+  }
+}
+
 /**
  * `main` element
  */
@@ -71,7 +87,8 @@ main {
  * Images
  */
 img {
-  max-width: 100%;
+  max-width: 300px;
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -196,8 +213,8 @@ pre {
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width: calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit * 1.5;
+    padding-left: $spacing-unit * 1.5;
   }
 }
 
