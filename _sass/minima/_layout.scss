@@ -184,7 +184,10 @@
     color: inherit;
   }
   img {
-    max-width: 100px;
+    max-width: 70px;
+    margin-bottom: $spacing-unit/2;
+    filter: invert(47%) sepia(65%) saturate(170%) hue-rotate(76deg)
+      brightness(84%) contrast(83%);
   }
 }
 

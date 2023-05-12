@@ -1,6 +1,6 @@
 - title: "Formação Acadêmica"
   anchor: formacao
-  icon: https://veronicagurgel.files.wordpress.com/2023/03/image003.png
+  icon: assets/images/formacao.png
   content:
     - paragraph: Formação em Psicologia pela Universidade Federal do Rio de Janeiro (UFRJ).
     - paragraph: Mestre em Psicologia pelo Programa de Pós-graduação da UFRJ.
@@ -8,7 +8,7 @@
     - paragraph: Pós-doutoranda em Psicologia pelo Programa de Pós-graduação da UFRJ.
 - title: "Atendimento Psicológico"
   anchor: atendimento
-  icon: https://veronicagurgel.files.wordpress.com/2023/03/image001.png
+  icon: assets/images/discussion.png
   content:
     - paragraph: Buscar atendimento psicológico pode ser uma decisão difícil para muitas pessoas. No entanto, é importante reconhecer que todos nós enfrentamos desafios emocionais e mentais em algum momento de nossas vidas, e buscar ajuda profissional pode ser uma forma eficaz de lidar com esses desafios.
     - paragraph: O atendimento psicológico nos ajuda compreender e lidar com questões como ansiedade, dificuldades em relacionamentos, questões ligadas à autoestima, insegurança, entre outras.
@@ -16,7 +16,7 @@
     - paragraph: Os atendimentos são particulares. No entanto, a psicóloga poderá emitir recibo para que você possa solicitar o reembolso junto ao plano de saúde.
 - title: "Abordagem Esquizoanalítica"
   anchor: abordagem
-  icon: https://veronicagurgel.files.wordpress.com/2023/03/image003.png
+  icon: assets/images/psy.png
   content:
     - paragraph: Apesar do nome diferente, a esquizoanálise é uma abordagem teórica e prática que deriva da psicanálise. Contudo, ela busca se atentar para a importância do contexto social na formação da subjetividade, considerando-o como relevante no processo de saúde e sofrimento psíquico.
     - paragraph: O atendimento se baseia, principalmente, na fala livre e não direcionada do paciente. A partir dessas conversas, a psicóloga conduz as sessões buscando indagar e compreender o que leva ao estado psicológico atual. Em conjunto, é possível construir estratégias, ferramentas e experimentações que contribuam para a modificação deste quadro.

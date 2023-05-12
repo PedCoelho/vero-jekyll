@@ -6,7 +6,7 @@ layout: default
   <div class="home-layout d-grid mb-3">
     <div class="column">
       <div class="center-mobile">
-        <img class="mb-2 round-img" src="https://veronicagurgel.files.wordpress.com/2023/04/img_3615-e1680380574433.jpg?w=325" />
+        <img class="mb-2 round-img" src="{{'assets/images/profile_2.jpg' | relative_url}}" />
       </div>
       <h1>Quem sou eu?</h1>
       <p>{{ site.author }}</p>
@@ -17,8 +17,12 @@ layout: default
         {{ site.description }}
       </p>
     </div>
-    <div class="column justify">{{ content }} {%- include whatsapp-button.html
- label = "Conversar no Whatsapp" -%}</div>
+    <div class="column justify">{{ content }}
+      <div class="center-mobile">
+        {%- include whatsapp-button.html
+          label = "Conversar no Whatsapp" -%}
+      </div>
+    </div>
   </div>
   <div class="links-section justify">
     {%- for item in site.data.homeSections -%}
