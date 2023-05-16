@@ -59,6 +59,8 @@
   text-align: center;
 }
 
+.hidden { display: none;}
+
 @include media-query($on-palm) {
   .justify-mobile {
     text-align: justify;
@@ -66,7 +68,12 @@
   .center-mobile {
     text-align: center;
   }
+  .mobile-show{
+    display:initial;
+  }
 }
+
+
 
 a.whatsapp-btn {
   background: #25d366

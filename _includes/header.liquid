@@ -1,10 +1,18 @@
 <header class="site-header" role="banner">
-
   <div class="wrapper">
+    {%- assign titleParts = site.title | split: "–" -%}
     <a
       class="site-title"
       href="{{ '/' | relative_url }}"
-      rel="author">{{ site.title | escape }}</a>
+      rel="author">
+      {%- for part in titleParts -%}
+
+        {{ part }}
+
+        {%- unless forloop.last -%}
+          - <br class="hidden mobile-show" />{%- endunless -%}
+      {%- endfor -%}
+    </a>
 
     {%- if site.data.nav -%}
       <nav class="site-nav">
