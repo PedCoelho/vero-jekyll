@@ -31,6 +31,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 lang: pt-BR
 google_analytics: G-45G3NLGY3E
 
+linkedin_username: veronica-gurgel-82a99a110
+lattes_username: 9545542889673896
 # Build settings
 theme: minima
 plugins:

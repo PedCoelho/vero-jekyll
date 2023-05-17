@@ -118,6 +118,10 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  img{
+    @extend .svg-icon;
+    width: 15px;
+  }
 }
 
 .footer-col-wrapper {

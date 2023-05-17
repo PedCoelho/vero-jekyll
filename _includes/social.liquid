@@ -55,7 +55,15 @@
         <svg class="svg-icon">
           <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
         </svg>
-        <span class="username">{{ site.linkedin_username | escape }}</span>
+        <span class="username">Linkedin</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if site.lattes_username -%}
+    <li>
+      <a href="http://lattes.cnpq.br/{{ site.lattes_username | escape }}">
+        <img src="{{'/assets/icon_lattes.svg' | relative_url}}">
+        <span class="username">Currículo Lattes</span>
       </a>
     </li>
   {%- endif -%}
