@@ -30,11 +30,18 @@ description: >- # this means to ignore newlines until "baseurl:"
 # url: "localhost:5500" # the base hostname & protocol for your site, e.g. http://example.com
 lang: pt-BR
 google_analytics: G-45G3NLGY3E
+google_tagmanager: GTM-PBQTMCQ
+
+show_excerpts: true
 
 linkedin_username: veronica-gurgel-82a99a110
 lattes_username: 9545542889673896
 # Build settings
 theme: minima
+
+minima:
+  date_format: "%-d %b, %Y"
+
 plugins:
   - jekyll-feed
 # Exclude from processing.

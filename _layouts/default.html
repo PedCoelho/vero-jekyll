@@ -4,6 +4,9 @@
   {%- include head.liquid -%}
 
   <body>
+    {%- if jekyll.environment == "production" and site.google_tagmanager -%}
+      {%- include google-tagmanager-body.liquid -%}
+    {%- endif -%}
 
     {%- include header.liquid -%}
 
