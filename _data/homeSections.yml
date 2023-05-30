@@ -12,8 +12,8 @@
   content:
     - paragraph: Buscar atendimento psicológico pode ser uma decisão difícil para muitas pessoas. No entanto, é importante reconhecer que todos nós enfrentamos desafios emocionais e mentais em algum momento de nossas vidas, e buscar ajuda profissional pode ser uma forma eficaz de lidar com esses desafios.
     - paragraph: O atendimento psicológico nos ajuda compreender e lidar com questões como ansiedade, dificuldades em relacionamentos, questões ligadas à autoestima, insegurança, entre outras.
-    - paragraph: As nossas sessões têm duração de 50 minutos e o atendimento é feito online. Para tanto, é fundamental que seja possível obter um espaço adequado, no qual o sigílo seja preservado, e com conexão à internet apropriada. As sessões são individuais e destinadas ao público adulto.
-    - paragraph: Os atendimentos são particulares. No entanto, a psicóloga poderá emitir recibo para que você possa solicitar o reembolso junto ao plano de saúde.
+    - paragraph: As nossas sessões têm duração de 50 minutos e o atendimento é feito online. Para tanto, é fundamental que seja possível obter um espaço adequado, no qual o sigilo seja preservado, e com conexão apropriada à internet. As sessões são individuais e destinadas a adultos e adolescentes.
+    - paragraph: Os atendimentos são particulares. No entanto, poderei emitir recibo para que você solicite o reembolso junto ao plano de saúde.
 - title: "Abordagem Esquizoanalítica"
   anchor: abordagem
   icon: assets/images/psy.png
@@ -21,4 +21,4 @@
     - paragraph: Apesar do nome diferente, a esquizoanálise é uma abordagem teórica e prática que deriva da psicanálise. Contudo, ela busca se atentar para a importância do contexto social na formação da subjetividade, considerando-o como relevante no processo de saúde e sofrimento psíquico.
     - paragraph: O atendimento se baseia, principalmente, na fala livre e não direcionada do paciente. A partir dessas conversas, a psicóloga conduz as sessões buscando indagar e compreender o que leva ao estado psicológico atual. Em conjunto, é possível construir estratégias, ferramentas e experimentações que contribuam para a modificação deste quadro.
     - paragraph: O tempo de tratamento é individualizado e singular, não sendo possível predizer sua duração. Porém, para seu bom andamento, é importante que o paciente esteja engajado nas sessões.
-    - paragraph: Usualmente, o término de uma terapia é determinado pelo momento em que o paciente demonstra um nível suficiente de habilidade para lidar com suas queixas, indicando uma mudança em seu comportamento que o satisfaça. Embora alguns pacientes optem por continuar com sessões de acompanhamento contínuo, muitas vezes eles se dedicam desenvolver mais recursos para lidar com suas questões.
+    - paragraph: Usualmente, o término de uma terapia é determinado pelo momento em que o paciente demonstra um nível suficiente de habilidade para lidar com suas queixas, indicando uma mudança que o satisfaça. Alguns pacientes optam por continuar com sessões de acompanhamento contínuo, dedicando-se a  desenvolver mais recursos para lidar com suas questões.
